@@ -8,9 +8,12 @@ function App() {
   return (
     <>
       <MainHeading />
-      <ComponentSection />
-      <ComponentSection />
-      <ComponentSection />
+      <div className="compSections">
+        <ComponentSection />
+        <ComponentSection />
+        <ComponentSection />
+      </div>
+      
     </>
   )
 }
