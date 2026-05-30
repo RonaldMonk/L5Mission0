@@ -5,6 +5,7 @@ import ComponentSection from './components/ComponentSection.jsx';
 import SearchSection from './components/SearchSection.jsx';
 import blowingBubbles from './assets/blowingBubbles.png';
 import fisherman from './assets/fisherman.png';
+import asianGrannies from './assets/asianGrannies.png';
 
 export default function App() {
 
@@ -16,7 +17,7 @@ export default function App() {
       <div className="compSections">
         <ComponentSection componentImage={blowingBubbles}/>
         <ComponentSection componentImage={fisherman}/>
-        
+        <ComponentSection componentImage={asianGrannies}/>
       </div>
       
     </>
